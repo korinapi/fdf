@@ -6,7 +6,7 @@
 /*   By: cpuiu <cpuiu@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/08 12:28:30 by cpuiu             #+#    #+#             */
-/*   Updated: 2024/01/27 10:40:04 by cpuiu            ###   ########.fr       */
+/*   Updated: 2024/01/27 10:58:16 by cpuiu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,8 @@ void	initialize_scene(t_graphics_scene *fdf)
 	fdf->top_color[0] = 250;
 	fdf->top_color[1] = 0;
 	fdf->top_color[2] = 0;
-	fdf->bottom_color[0] = 0;
-	fdf->bottom_color[1] = 0;
+	fdf->bottom_color[0] = 10;
+	fdf->bottom_color[1] = 50;
 	fdf->bottom_color[2] = 200;
 	fdf->grab_info.is_active = 0;
 	fdf->grab_info.is_figure_grabbed = 0;
